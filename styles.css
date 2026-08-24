@@ -170,13 +170,14 @@ letter-spacing: -0.03em;
 .card,
 .project-card {
   background: #22242b;
+  color: white;
   border: 1px solid rgba(17,24,39, 0.08);
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(4, 80, 245, 0.13);
 }
 
 .proj-text{
-  color: #22242b;
+  color: #ffffff;
 }
 .card{
   padding: 18px;
@@ -184,7 +185,9 @@ letter-spacing: -0.03em;
 
 }
 
-.card h2 {
+.card h2,
+.card p {
+  color: white; 
   margin-top: 0;
 }
 
@@ -213,13 +216,14 @@ letter-spacing: -0.03em;
   border-color:  rgba(3, 25, 29, 0.363);
 }
 
-project-card h3 {
+.project-card h3 {
   margin: 0 0 6px;
   letter-spacing: -0.02em;
+  color: white; 
 }
-.project-card p{
+.project-card p {
   margin: 0 0 12px;
-  color: #4b5563;
+  color: #d1d5db;
 }
 
 .tags {
@@ -231,12 +235,12 @@ project-card h3 {
   flex-wrap: wrap;
 }
 
-.tags li{
+.tags li {
   font-size: 0.85rem;
   padding: 6px 10px;
   border-radius: 999px;
-  background: rgba(17, 24, 39, 0.06);
-  color: #111827;
+  background: rgba(108, 230, 255, 0.15);
+  color: white;
 }
 
 .links {
